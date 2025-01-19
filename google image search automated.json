@@ -1,0 +1,126 @@
+{
+  "Name": "img-search",
+  "CreationDate": "2025-1-19",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "this takes input image as IMGSEARCH",
+      "Value": "must be saved on harddrive",
+      "Description": "it will open google images and search for the input image "
+    },
+    {
+      "Command": "open",
+      "Target": "https://images.google.com/",
+      "Value": "",
+      "Description": "open google image search"
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": "upload"
+    },
+    {
+      "Command": "click",
+      "Target": "css=body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.fM33ce.dRYYxd > div.nDcEnd > svg",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div/div[3]/form/div/div/div/div/div[3]/div[3]/svg",
+        "css=body > div.L3eUgb > div.o3j99.ikrT4e.om7nvf > form > div:nth-child(1) > div.A8SBwf > div.RNNXgb > div > div.fM33ce.dRYYxd > div.nDcEnd > svg"
+      ],
+      "Description": "upload"
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": "upload"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"ow15\"]/div[3]/c-wiz/div[2]/div/div[3]/div[2]/div/div[2]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ow15\"]/div[3]/c-wiz/div[2]/div/div[3]/div[2]/div/div[2]/span",
+        "xpath=//div[3]/div[2]/div/div[2]/span",
+        "css=#ow15 > div.M8H8pb > c-wiz > div.ea0Lbe > div > div.gIYJUc > div.f6GA0 > div > div.ZeVBtc > span"
+      ],
+      "Description": "choose file"
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": "upload"
+    },
+    {
+      "Command": "comment",
+      "Target": "XType // ${KEY_ENTER}",
+      "Value": "",
+      "Description": "upload"
+    },
+    {
+      "Command": "XClick",
+      "Target": "h8ia2l_dpi_96.png",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"ow15\"]/div[3]/c-wiz/div[2]/div/div[3]/div[2]/div/div[2]/span",
+        "xpath=//div[3]/div[2]/div/div[2]/span",
+        "css=#ow15 > div.M8H8pb > c-wiz > div.ea0Lbe > div > div.gIYJUc > div.f6GA0 > div > div.ZeVBtc > span"
+      ],
+      "Description": "choose file"
+    },
+    {
+      "Command": "pause",
+      "Target": "1000",
+      "Value": "",
+      "Description": "upload"
+    },
+    {
+      "Command": "XType",
+      "Target": "\"${RA8}.jpg\"",
+      "Value": "",
+      "Description": "enter file name"
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "upload"
+    },
+    {
+      "Command": "XClick",
+      "Target": "thjjl4_dpi_96.png",
+      "Value": "",
+      "Targets": [
+        "xpath=/html/body/div[7]/div/div/div[3]/div/div/div/div/div[2]/div/article/div/div[2]/div/div/div[2]/section/span/div/div/div/svg",
+        "css=body > div.x1n2onr6.xzkaem6 > div.x9f619.x1n2onr6.x1ja2u2z > div > div.x1uvtmcs.x4k7w5x.x1h91t0o.x1beo9mf.xaigb6o.x12ejxvf.x3igimt.xarpa2k.xedcshv.x1lytzrv.x1t2pt76.x7ja8zs.x1n2onr6.x1qrby5j.x1jfb8zj > div > div > div > div > div.xb88tzc.xw2csxc.x1odjw0f.x5fp0pe.x1qjc9v5.xjbqb8w.x1lcm9me.x1yr5g0i.xrt01vj.x10y3i5r.xr1yuqi.xkrivgy.x4ii5y1.x1gryazu.x15h9jz8.x47corl.xh8yej3.xir0mxb.x1juhsu6 > div > article > div > div.x1qjc9v5.x972fbf.xcfux6l.x1qhh985.xm0m39n.x9f619.x78zum5.xdt5ytf.x1iyjqo2.x5wqa0o.xln7xf2.xk390pu.xdj266r.x11i5rnm.xat24cr.x1mh8g0r.x65f84u.x1vq45kp.xexx8yu.x4uap5.x18d9i69.xkhd6sd.x1n2onr6.x11njtxf > div > div > div.x78zum5.xdt5ytf.x1q2y9iw.x1n2onr6.xh8yej3.x9f619.x1iyjqo2.x18l3tf1.x26u7qi.xy80clv.xexx8yu.x4uap5.x18d9i69.xkhd6sd > section.x78zum5.x1q0g3np.xwib8y2.x1yrsyyn.x1xp8e9x.x13fuv20.x178xt8z.xdj266r.x11i5rnm.xat24cr.x1mh8g0r.xo1ph6p.x1pi30zi.x1swvt13 > span.x1rg5ohu.xp7jhwk > div > div > div > svg"
+      ],
+      "Description": "click to open"
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "upload"
+    },
+    {
+      "Command": "comment",
+      "Target": "do something here with google image results",
+      "Value": "",
+      "Description": "find ebay text click on it or click first on the list or average something idk"
+    },
+    {
+      "Command": "comment",
+      "Target": "OCRExtractRelative // imgsearch.png",
+      "Value": "RGX1",
+      "Description": "find ebay text click on it"
+    },
+    {
+      "Command": "comment",
+      "Target": "end script",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
