@@ -1,0 +1,96 @@
+{
+  "Name": "dl-imgs",
+  "CreationDate": "2025-1-19",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "you have to have open your zoho forms responses page.  should be a table of responses. ",
+      "Value": "only works with zoho forms",
+      "Description": "special"
+    },
+    {
+      "Command": "store",
+      "Target": "false",
+      "Value": "!WAITFORVISIBLE",
+      "Description": "download image"
+    },
+    {
+      "Command": "click",
+      "Target": "css=#downloadFileInPrivew > a > svg",
+      "Value": "",
+      "Description": "download image"
+    },
+    {
+      "Command": "click",
+      "Target": "css=#showImageNext > svg",
+      "Value": "",
+      "Description": "next"
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "css=#downloadFileInPrivew > a > svg",
+      "Value": "",
+      "Description": "download image"
+    },
+    {
+      "Command": "click",
+      "Target": "css=#showImageNext > svg",
+      "Value": "",
+      "Description": "nex"
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "end "
+    },
+    {
+      "Command": "click",
+      "Target": "css=#downloadFileInPrivew > a > svg",
+      "Value": "",
+      "Description": "download image"
+    },
+    {
+      "Command": "click",
+      "Target": "css=#showImageNext > svg",
+      "Value": "",
+      "Description": "nex"
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "end "
+    },
+    {
+      "Command": "click",
+      "Target": "css=#downloadFileInPrivew > a > svg",
+      "Value": "",
+      "Description": "download image"
+    },
+    {
+      "Command": "click",
+      "Target": "css=#showImageNext > svg",
+      "Value": "",
+      "Description": "nex"
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//div/li[2]/a/icon",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
